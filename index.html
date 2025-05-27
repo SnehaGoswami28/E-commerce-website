@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My E-Commerce store</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<script src="script.js"></script>
+
+
+<body>
+  
+  <header>
+    <h1>My E-Commerce Store</h1>
+    <div id="cart-count">Cart: 0 items</div><br>
+  </header>
+
+  <main id="product-list">
+    <!-- Product 1 -->
+    <div class="product-card">
+      <img src="shoes.jpeg" alt="Running Shoe">
+      <h2>Running Shoe</h2>
+      <p>$49.99</p>
+      <button onclick="addToCart('Running Shoe', 49.99)">Add to Cart</button>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="tshirts.jpeg" alt="Casual T-Shirt">
+      <h2>Casual T-Shirt</h2>
+      <p>$19.99</p>
+      <button onclick="addToCart('Casual T-Shirt', 19.99)">Add to Cart</button>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <img src="headphones.jpeg" alt="Wireless Headphones">
+      <h2>Wireless Headphones</h2>
+      <p>$79.99</p>
+      <button onclick="addToCart('Wireless Headphones', 79.99)">Add to Cart</button>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="travel bag.jpeg" alt="Travel Backpack">
+      <h2>Travel Backpack</h2>
+      <p>$39.99</p>
+      <button onclick="addToCart('Travel Backpack', 39.99)">Add to Cart</button>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product-card">
+      <img src="smartwatch.jpeg" alt="Smart Watch">
+      <h2>Smart Watch</h2>
+      <p>$99.99</p>
+      <button onclick="addToCart('Smart Watch', 99.99)">Add to Cart</button>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card">
+      <img src="sunglass.jpeg" alt="Stylish Sunglasses">
+      <h2>Stylish Sunglasses</h2>
+      <p>$24.99</p>
+      <button onclick="addToCart('Stylish Sunglasses', 24.99)">Add to Cart</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
